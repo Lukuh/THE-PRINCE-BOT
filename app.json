@@ -51,7 +51,10 @@
       "description": "your session id",
       "required": true,
       "value": ""
-    }
+    },
+     "AUTO_BIO":{
+       "description ": "your bot about",
+       "required ": true
     },
     "addons": [{ "plan": "heroku-postgresql:basic" }],
   "buildpacks": [
